@@ -1,0 +1,76 @@
+<!-- JavaScript Method of DOM Part -1   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method of DOM Part-1</title>
+</head>
+<body>
+    <!-- id -->
+    <p id="one"><span>Hello</span>Namaste</p>
+
+    <!-- class -->
+    <ul>
+     <li class="tech">one</li>
+     <li class="tech">two</li>
+     <li class="tech">three</li>
+    </ul>
+<!-- tag name -->
+<h4>hii</h4>
+<h4>Namaste</h4>
+<h4>Hola</h4>
+<!-- Query Selector -->
+<h2>Hollo</h2>
+<h2 class="class" >Hola</h2>
+<h2 id="ids">hey</h2>
+  <script>
+ 
+
+    // id
+
+  let var1=document.getElementById("one");
+  // console.log(var1);
+  // console.log(var1.innerHTML);
+//  console.log(var1.innerText);
+
+//  class
+
+let var2=document.getElementsByClassName("tech");
+// console.log(var2);
+// console.log(var2[2].innerText);
+
+//Manupulate
+
+var2[1].innerText="Nodejs";
+
+// tag name
+let var3=document.getElementsByTagName("h4");
+// console.log(var3);
+// console.log(var3[2].innerHTML);
+
+//Manupulate
+
+var3[2].innerText="Pw Skill";
+var3[2].style.color="red";
+var3[2].style.color="red";
+//console.log(var3[2].innerHTML);
+
+ // Query Selector
+ let var4=document.querySelector(".class");
+// let var4=document.querySelector("#ids");
+console.log(var4);
+
+//Manupulate
+
+var4.className="Good";
+//  var4.classList="hello helo hola";
+//  console.log(var4);
+ var4.setAttribute("id","satish");
+ var4.setAttribute("title","satish Kumar Yadav");
+
+  </script>
+</body>
+</html>
