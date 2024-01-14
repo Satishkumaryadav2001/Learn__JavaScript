@@ -92,7 +92,7 @@ let Value3=true
 let Value4=false
 let Value5=true
 
-// //And Operator (&&) All Value True Than result True
+ //And Operator (&&) All Value True Than result True
 
 console.log("And && Operatore:",Value1&&Value2);
 
@@ -142,16 +142,25 @@ console.log(gmailAccount || emailAccount || githubLogin);
 //     console.log("You are Not Allowed");
 // }
 
+
+
 // let signal="red";
+
 // //Condition-1
+
 // if (signal=="red") {
 //     console.log("Red => STOP");
+
 //     //Condition-2
+
 // }else if(signal=="yellow"){
 //     console.log("Yellow => go Slow");
+
 //     //Condition-3
+
 // }else if(signal=="green"){
 //     console.log("Green => Go Fast");
+
 //     //last Condition
 // }else{
 //     console.log("Invalid");
@@ -162,15 +171,19 @@ console.log(gmailAccount || emailAccount || githubLogin);
 
 // let user="Admin";
 // switch(user){
+
 //     case "Admin":
 //     console.log("He is Admin");
 //     break;
+
 //     case "Student":
 //         console.log("He is Student");
 //         break;
+
 //     case "Mentor":
 //         console.log("He is Mentor");
 //         break;
+
 //     default:
 //         console.log("I am default");
     
@@ -185,21 +198,29 @@ console.log(gmailAccount || emailAccount || githubLogin);
 // // do loop,do while loop,for loop
 
 // //For Loop
+
 // console.log("For Loop:");
+
 // for(let i=0;i<=10;i++){
 //     console.log(i);
 // }
 
-// //do lopp
+
+
+// while loop
+
 // let j=0;
-// console.log("do Loop:");
+// console.log("while Loop:");
 // while(j<=20){
 //     console.log(j);
 //     j=j+1;
 // }
-// let k=1;
 
-// //do while lopp
+
+
+//do while loop
+
+// let k=1;
 // console.log("do while Loop:");
 // do{
 //     console.log(k);
@@ -207,7 +228,8 @@ console.log(gmailAccount || emailAccount || githubLogin);
 // } while(k<=25)
 
 
-// //Ternary Op// Ternary Condition
+
+// //Ternary Operator// Ternary Condition
 
 // // Syntax:- Condition? true:false
 
